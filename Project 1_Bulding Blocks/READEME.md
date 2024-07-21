@@ -1,4 +1,3 @@
-Here's a simple HTML template for a README file that includes information about the customized clock dividers and other completed projects in Project_1:
 
 ```html
 <!DOCTYPE html>
@@ -62,4 +61,4 @@ Here's a simple HTML template for a README file that includes information about 
 </html>
 ```
 
-You can adjust the details as needed to fit your specific projects and objectives.
+
