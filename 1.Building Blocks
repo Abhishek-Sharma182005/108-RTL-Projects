@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project Index</h1>
+    <p>Welcome to the project folder. Below are the links to the source files, testbench, and documentation.</p>
+    
+    <h2>Source Files</h2>
+    <ul>
+        <li><a href="source_file1.v">Source File 1</a></li>
+        <li><a href="source_file2.v">Source File 2</a></li>
+        <!-- Add more source files as needed -->
+    </ul>
+
+    <h2>Testbench</h2>
+    <ul>
+        <li><a href="testbench_file.v">Testbench File</a></li>
+    </ul>
+
+    <h2>Documentation</h2>
+    <ul>
+        <li><a href="document.pdf">Project Documentation</a></li>
+    </ul>
+</body>
+</html>
 
