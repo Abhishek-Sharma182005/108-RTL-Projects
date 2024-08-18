@@ -1,0 +1,66 @@
+ module tb_CLA_4bit ;
+2
+3 // Declare inputs as reg and outputs as wire
+4 reg [3:0] A ;
+5 reg [3:0] B ;
+6 reg Cin ;
+7 wire [3:0] Sum ;
+8 wire Cout ;
+9
+10 // Instantiate the CLA_4bit module
+11 CLA_4bit uut (
+12 . A ( A ) ,
+13 . B ( B ) ,
+14 . Cin ( Cin ) ,
+15 . Sum ( Sum ) ,
+16 . Cout ( Cout )
+17 ) ;
+18
+19 // Testbench procedure
+20 initial begin
+21 // Test Case 1: Add zero to zero
+22 A = 4 ’ b0000 ;
+23 B = 4 ’ b0000 ;
+24 Cin = 1 ’ b0 ;
+25 #10;
+26 $display ("TC1: A = %b, B = %b, Cin = %b | Sum = %b, Cout =
+%b", A , B , Cin , Sum , Cout ) ;
+27
+28 // Test Case 2: Add two small numbers
+29 A = 4 ’ b0011 ; // 3
+30 B = 4 ’ b0101 ; // 5
+31 Cin = 1 ’ b0 ;
+32 #10;
+33 $display ("TC2: A = %b, B = %b, Cin = %b | Sum = %b, Cout =
+%b", A , B , Cin , Sum , Cout ) ;
+34
+35 // Test Case 3: Add two numbers with carry in
+36 A = 4 ’ b1101 ; // 13
+37 B = 4 ’ b0111 ; // 7
+38 Cin = 1 ’ b1 ;
+39 #10;
+40 $display ("TC3: A = %b, B = %b, Cin = %b | Sum = %b, Cout =
+%b", A , B , Cin , Sum , Cout ) ;
+41
+42 // Test Case 4: Add random values
+43 A = 4 ’ b1010 ; // 10
+44 B = 4 ’ b0110 ; // 6
+45 Cin = 1 ’ b0 ;
+46 #10;
+47 $display ("TC4: A = %b, B = %b, Cin = %b | Sum = %b, Cout =
+%b", A , B , Cin , Sum , Cout ) ;
+48
+49 // Test Case 5: Overflow case
+50 A = 4 ’ b1111 ; // 15
+51 B = 4 ’ b1111 ; // 15
+52 Cin = 1 ’ b0 ;
+53 #10;
+Created By Team Alpha
+54 $display ("TC5: A = %b, B = %b, Cin = %b | Sum = %b, Cout =
+%b", A , B , Cin , Sum , Cout ) ;
+55
+56 // Finish simulation
+57 $finish ;
+58 end
+59
+60 endmodule
