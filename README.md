@@ -1,6 +1,4 @@
-Here’s the updated and detailed version of your `README.md` with your contact information included:
 
----
 
 # 108 RTL Projects 🚀  
 
@@ -148,4 +146,4 @@ Dive in, explore, and build your dream hardware designs! Let’s push the bounda
 
 --- 
 
-Let me know if there’s anything else you’d like to add or modify!
+
