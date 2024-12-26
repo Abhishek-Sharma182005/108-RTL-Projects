@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Dec 27 01:40:39 2024
+# Process ID: 3132
+# Current directory: C:/Users/Dell/Desktop/Processor_AI/Processor_1/Processor_1.runs/synth_1
+# Command line: vivado.exe -log processor_top1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source processor_top1.tcl
+# Log file: C:/Users/Dell/Desktop/Processor_AI/Processor_1/Processor_1.runs/synth_1/processor_top1.vds
+# Journal file: C:/Users/Dell/Desktop/Processor_AI/Processor_1/Processor_1.runs/synth_1\vivado.jou
+# Running On: Tizen, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8345 MB
+#-----------------------------------------------------------
+source processor_top1.tcl -notrace

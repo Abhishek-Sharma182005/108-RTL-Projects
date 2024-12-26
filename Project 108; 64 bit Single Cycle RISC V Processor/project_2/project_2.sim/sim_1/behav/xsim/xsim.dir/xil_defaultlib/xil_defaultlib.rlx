@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sim_1/new/tb_alu.sv,1735241267,systemVerilog,,,,tb_alu,,uvm,,,,,,
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sim_1/new/tb_data_memory.sv,1735243148,systemVerilog,,,,tb_data_memory,,uvm,,,,,,
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sim_1/new/tb_instruction_memory.sv,1735242145,systemVerilog,,,,tb_instruction_memory,,uvm,,,,,,
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sources_1/new/alu.sv,1735241102,systemVerilog,,C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sim_1/new/tb_alu.sv,,alu,,uvm,,,,,,
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sources_1/new/data_memory.sv,1735243113,systemVerilog,,C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sim_1/new/tb_data_memory.sv,,data_memory,,uvm,,,,,,
+C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sources_1/new/instruction_memory.sv,1735241840,systemVerilog,,C:/Users/Dell/Desktop/Processor_AI/project_2/project_2.srcs/sim_1/new/tb_instruction_memory.sv,,instruction_memory,,uvm,,,,,,
